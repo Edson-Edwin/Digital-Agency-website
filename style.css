@@ -38,3 +38,26 @@ body{
   box-shadow: none !important;
   border: none !important;
 }
+/*Banner Section*/
+#banner{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color:#fff;
+    padding-top:5%;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.play-btn{
+  width: 45px;
+  margin:20px
+}
+#banner a{
+    color:#fff;
+    text-decoration: none;
+}
+.bottom-img{
+    width: 100%;
+    display:block;
+}
