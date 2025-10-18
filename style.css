@@ -61,3 +61,47 @@ body{
     width: 100%;
     display:block;
 }
+/*----------About Section-----------*/
+#services{
+    padding: 80px 0;
+}
+.service-img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.services {
+    padding: 20px;
+}
+.services h3 {
+    padding: 20px;
+    text-transform: uppercase;
+}
+.title{
+    padding:20px;
+}
+.title::before{
+    content: '';
+    width: 200px;
+    height: 4px;
+    background-color: #a517ba;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    transform:translateY(95px)
+}
+.title::after{
+    content: '';
+    width: 50px;
+    height: 10px;
+    background-color: #a517ba;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#services button{
+    box-shadow: none;
+    padding:10px 20px;
+    border:none;
+    border-radius:50px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
