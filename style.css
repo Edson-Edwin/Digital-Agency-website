@@ -85,18 +85,19 @@ body{
     height: 4px;
     background-color: #a517ba;
     display: block;
-    margin: 0 auto;
+    margin: auto auto;
     margin-bottom: 40px;
-    transform:translateY(95px)
+    transform:translateY(96px)
 }
 .title::after{
     content: '';
     width: 50px;
-    height: 10px;
+    height: 7px;
     background-color: #a517ba;
     display: block;
-    margin: 0 auto;
+    margin: auto auto;
     margin-bottom: 20px;
+    transform:translateY(2.5px)
 }
 #services button{
     box-shadow: none;
@@ -104,4 +105,76 @@ body{
     border:none;
     border-radius:50px;
     background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+/*----------About Us Section-----------*/
+.about-us{
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-title{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.about-title ul li{
+    margin:10px 0;
+}
+/*----------Testimonials Section-----------*/
+#testimonials{
+    margin: 100px 0;
+
+}
+.testimonials{
+    margin-left: 100px;
+    border-left: 4px solid #a517ba;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.testimonials img{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    margin:10px 0px;
+}
+.username{
+    display:inline-block;
+    font-size: 12px;
+}
+/*----------social media Section-----------*/
+#social-media{
+    padding: 40px 0;
+    color:#060606;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight:600px;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width:60px;
+    transition: 0.5s;
+}
+.social-icons img:hover{
+    transform: translateY(-10px);
+}
+#footer{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color:#fff;
+}
+.footer img{
+    width:100%;
+}
+.footer-box .fa{
+    color:#fff;
+    font-size: 20px;
+    margin-right: 15px;
+    height:40px;
+    width:40px;
+    text-align: center;
+    box-shadow: #413f3f 0px 0px 10px;
+    padding-top:10px;
+    border-radius: 10px;
+    background-color: linear-gradient(to right,#a517ba,#5f1782);
+
 }
