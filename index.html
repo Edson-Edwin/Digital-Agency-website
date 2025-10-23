@@ -20,19 +20,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">HOME</a>
+          <a class="nav-link" href="#top">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">SERVICES</a>
+          <a class="nav-link" href="#services">SERVICES</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT US</a>
+          <a class="nav-link" href="#about-us">ABOUT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">TESTIMONIALS</a>
+          <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CONTACTS</a>
+          <a class="nav-link" href="#footer">CONTACTS</a>
         </li>
       </ul>
     </div>
@@ -80,7 +80,7 @@
   </div>
 <!----------ABOUT US--------->
 </section>
-<section class="about-us">
+<section id="about-us">
   <div class="container">
     <h1 class="title text-center"> WHY CHOOSE US ? </h1>
     <div class="row">
@@ -145,8 +145,17 @@
         <P><i class="fa fa-phone" aria-hidden="true"></i> xxxxxxxxx</P>
         <P><i class="fa fa-envelope" aria-hidden="true"></i> xxxxxxxxx</P>
       </div>
+      <div class="col-md-4 footer-box">
+        <p><b>NEWS LETTER</b></p>
+        <input type="email" class="form-control" placeholder="Enter your email">
+        <button type="button" class="btn btn-primary">SUBSCRIBE</button>
+      </div>
     </div>
   </div>
 </section>
+<script src="smooth-scroll.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 </body>
 </html>

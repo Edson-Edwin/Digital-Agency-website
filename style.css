@@ -172,9 +172,22 @@ body{
     height:40px;
     width:40px;
     text-align: center;
-    box-shadow: #413f3f 0px 0px 10px;
     padding-top:10px;
     border-radius: 10px;
-    background-color: linear-gradient(to right,#a517ba,#5f1782);
+    background: linear-gradient(to right,#a517ba,#5f1782);
 
+}
+.footer-box .form-control{
+    border:none;
+    border-radius: 0;
+    box-shadow: none !important;
+    margin-top:25px;
+    max-width: 250px;
+}
+.btn-primary {
+    border: none !important;;
+    border-radius: 0;
+    box-shadow: none !important;
+    margin-top:25px;
+    background: linear-gradient(to right,#a517ba,#5f1782);
 }
